@@ -1,59 +1,26 @@
-<p align="center">
-    <img alt="logo" src="./doc/imgs/小石榴.png" width="100" />
-</p>
-<h1 align="center" style="margin: 20px 30px 0px 30px; font-weight: bold;">XiaoShiLiu</h1>
+# 小石榴 (XiaoShiLiu) - 仿小红书 Web 端项目
 
----
-<p align="center">
-    <b>基于 Express + Vue 前后端分离仿小红书项目</b>
-</p>
+这是一个基于 **Vue 3** 和 **Express** 开发的前后端分离项目，高仿小红书 Web 端核心功能。本项目旨在练习全栈开发流程，包括响应式布局、状态管理及 RESTful API 交互。
 
+## 🌟 项目亮点
+- **响应式瀑布流**：适配不同屏幕尺寸的笔记展示布局。
+- **全栈开发**：涵盖了从数据库设计到前端 UI 实现的完整流程。
+- **功能完备**：支持图文发布、评论互动、个人中心、搜索记录及后台管理。
+- **暗黑模式**：内置主题切换功能，支持深色/浅色模式切换。
 
+## 🛠️ 技术栈
+- **前端**: Vue 3, Vite, Pinia, Vue Router, Axios
+- **后端**: Node.js, Express, MySQL
+- **容器化**: 支持 Docker & Docker Compose 快速部署
 
-## 项目展示
+## 🚀 快速开始
 
-### PC端界面
+### 1. 前后端启动
+```bash
+cd vue3-project
+npm install
+npm run dev
 
-<table>
-  <tr>
-    <td><img src="./doc/imgs/1.png" alt="PC端界面1" width="300"/></td>
-    <td><img src="./doc/imgs/2.png" alt="PC端界面2" width="300"/></td>
-    <td><img src="./doc/imgs/3.png" alt="PC端界面3" width="300"/></td>
-  </tr>
-  <tr>
-    <td><img src="./doc/imgs/4.png" alt="PC端界面4" width="300"/></td>
-    <td><img src="./doc/imgs/5.png" alt="PC端界面5" width="300"/></td>
-    <td><img src="./doc/imgs/6.png" alt="PC端界面6" width="300"/></td>
-  </tr>
-  <tr>
-    <td><img src="./doc/imgs/7.png" alt="PC端界面7" width="300"/></td>
-    <td><img src="./doc/imgs/8.png" alt="PC端界面8" width="300"/></td>
-    <td><img src="./doc/imgs/9.png" alt="PC端界面9" width="300"/></td>
-  </tr>
-  <tr>
-    <td><img src="./doc/imgs/10.png" alt="PC端界面10" width="300"/></td>
-    <td><img src="./doc/imgs/11.png" alt="PC端界面11" width="300"/></td>
-    <td><img src="./doc/imgs/12.png" alt="PC端界面12" width="300"/></td>
-  </tr>
-  <tr>
-    <td><img src="./doc/imgs/13.png" alt="PC端界面13" width="300"/></td>
-    <td><img src="./doc/imgs/14.png" alt="PC端界面14" width="300"/></td>
-    <td><img src="./doc/imgs/15.png" alt="PC端界面15" width="300"/></td>
-  </tr>
-    <tr>
-    <td><img src="./doc/imgs/16.png" alt="PC端界面16" width="300"/></td>
-    <td><img src="./doc/imgs/17.png" alt="PC端界面17" width="300"/></td>
-    <td><img src="./doc/imgs/18.png" alt="PC端界面18" width="300"/></td>
-  </tr>
-</table>
-
-- **Vue.js 3** - 前端框架（Composition API）
-- **Vue Router 4** - 路由管理
-- **Pinia** - 状态管理
-- **Vite** - 构建工具和开发服务器
-- **Axios** - HTTP客户端
-- **VueUse** - Vue组合式工具库
-- **CropperJS** - 图片裁剪
-- **Vue3 Emoji Picker** - 表情选择器
-- **svg-captcha** - 验证码生成器
-</details>
+cd express-project
+npm install
+npm start
